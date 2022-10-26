@@ -5,6 +5,9 @@ $theme-colors: (
   "primary": $primary,
   "danger": $danger
 );
+.white{
+  color: white;
+}
 .navbar{
   --bs-navbar-toggler-icon-bg: url(../drawables/Imagenes/icon-hamburger.svg);
   --bs-navbar-nav-link-padding-x: 2rem !important;
@@ -165,6 +168,14 @@ path.hrojo:hover{
   .low-card{
     width: 100%;
     padding: 0% !important;
+  }
+  .carta:nth-child(1){
+  margin-top: 0;
+  }.carta:nth-child(2){
+    margin-top: 1rem;
+  
+  }.carta:nth-child(3){
+  margin-top: 3rem;
   }
   
   @media (min-width: 768px) and (max-width: 1024px) {
