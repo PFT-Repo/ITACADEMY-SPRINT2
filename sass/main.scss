@@ -19,8 +19,6 @@ $theme-colors: (
   padding-top: 3rem;
 }
 body{
-  max-width: 1399px!important;
-  margin: auto;
   font-family: 'Maven Pro', sans-serif;
 }
 .rela{
@@ -141,6 +139,7 @@ path.hrojo:hover{
 }
 .bg-primary{
     background-color: $primary;
+    width: 100%;
     }
     .fit{
       width: fit-content;

@@ -10953,8 +10953,6 @@ textarea.form-control-lg {
 }
 
 body {
-  max-width: 1399px !important;
-  margin: auto;
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -11097,6 +11095,7 @@ path.hrojo:hover {
 
 .bg-primary {
   background-color: #5265E1 !important;
+  width: 100%;
 }
 
 .fit {
