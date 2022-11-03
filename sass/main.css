@@ -10939,6 +10939,13 @@ textarea.form-control-lg {
   color: white;
 }
 
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar {
   --bs-navbar-toggler-icon-bg: url(../drawables/Imagenes/icon-hamburger.svg);
   --bs-navbar-nav-link-padding-x: 2rem !important;
@@ -10977,7 +10984,8 @@ body {
 }
 
 .fig2 {
-  margin-top: 35px !important;
+  left: -17px;
+  margin-top: 144px !important;
   padding-left: none;
   width: 60%;
   z-index: -1;
@@ -10991,6 +10999,10 @@ body {
 
 .tab3 {
   margin-top: 138px !important;
+}
+
+.orderdiv1 {
+  order: 0 !important;
 }
 
 .nav-tabs {
@@ -11145,6 +11157,28 @@ path.hrojo:hover {
   margin-top: 3rem;
 }
 
+@media (min-width: 1162px) {
+  .fig1 {
+    height: 396px;
+    /* right: 180px; */
+    margin-left: 201px;
+    margin-top: 118px;
+    padding-left: 260px;
+    width: 100%;
+    margin-left: -1px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1161px) {
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .fig1 {
+    margin-top: 95px;
+    padding-left: 237px;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .SBM {
     text-align: center;
@@ -11171,8 +11205,8 @@ path.hrojo:hover {
     width: 100%;
   }
   .fig1 {
-    margin-top: 52px;
-    padding-left: 125px;
+    margin-top: 64px;
+    padding-left: 186px;
     width: 100%;
     margin-left: 0%;
   }
@@ -11213,7 +11247,104 @@ path.hrojo:hover {
     justify-content: center;
   }
 }
-@media (min-width: 172px) and (max-width: 767px) {
+@media (min-width: 605px) and (max-width: 767px) {
+  .rela img:nth-child(1) {
+    width: 70%;
+    margin-left: 91px;
+  }
+  .orderdiv1 {
+    order: -1 !important;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .fig1 {
+    margin-top: 114px;
+    padding-left: 293px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .fig2 {
+    height: 298px;
+    margin-top: 0px !important;
+    padding-left: none;
+    width: auto;
+    max-width: 12.8;
+    max-height: 13;
+  }
+}
+.card img {
+  padding: 2rem 4rem;
+}
+
+@media (min-width: 500px) and (max-width: 604px) {
+  .orderdiv1 {
+    order: -1 !important;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .fig1 {
+    margin-top: 63px;
+    padding-left: 190px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .tabs-d {
+    width: auto;
+    align-content: center;
+    border-bottom: none;
+    flex-direction: column;
+  }
+  .tabs-d .nav-item {
+    border-bottom: 1px solid grey;
+  }
+  .tabs-d .nav-item:first-child {
+    border-top: 1px solid grey;
+    border-color: grey;
+  }
+}
+@media (min-width: 450px) and (max-width: 499px) {
+  .orderdiv1 {
+    order: -1 !important;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .fig1 {
+    margin-top: 48px;
+    padding-left: 141px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .fig2 {
+    margin-top: -50px !important;
+    padding-left: none;
+    margin-right: 76px;
+    width: 87%;
+  }
+  .card img {
+    padding: 2rem 4rem;
+  }
+  .tabimg {
+    margin: 0 auto 0 29px;
+    width: 298px !important;
+  }
+  .tabs-d {
+    width: auto;
+    align-content: center;
+    border-bottom: none;
+    flex-direction: column;
+  }
+  .tabs-d .nav-item {
+    border-bottom: 1px solid grey;
+  }
+  .tabs-d .nav-item:first-child {
+    border-top: 1px solid grey;
+    border-color: grey;
+  }
+}
+@media (min-width: 172px) and (max-width: 449px) {
   .SBM {
     text-align: center;
   }
@@ -11250,11 +11381,10 @@ path.hrojo:hover {
     margin-top: 1rem !important;
   }
   .fig2 {
-    margin-top: 13px !important;
+    margin-top: -71px !important;
     padding-left: none;
+    margin-right: 74px;
     width: 87%;
-    max-width: 12.8;
-    max-height: 13;
   }
   .tab2 {
     margin-top: 68px !important;
@@ -11267,10 +11397,10 @@ path.hrojo:hover {
   }
   .tabimg {
     margin: 0 auto 0 29px;
-    width: 210px !important;
+    width: 210px;
   }
   .orderdiv1 {
-    order: -1;
+    order: -1 !important;
   }
   .justyeffect {
     justify-content: center;
